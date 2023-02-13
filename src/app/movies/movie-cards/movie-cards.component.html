@@ -1,0 +1,7 @@
+<section class=container>
+    <div *ngFor="let datas of data" class="moviesdata">    
+       <img src="https://image.tmdb.org/t/p/w154/{{datas.poster_path}}">
+       <p>{{datas.title}}</p>
+       <p>{{datas.release_date | date}}</p>
+    </div>
+</section>

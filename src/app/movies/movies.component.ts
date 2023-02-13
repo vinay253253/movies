@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+ 
+
 
 @Component({
   selector: 'app-movies',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoviesComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) { }
+  
+  public data:any;
 
+  
   ngOnInit(): void {
+    
   }
-
 }

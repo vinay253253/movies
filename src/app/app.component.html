@@ -1,10 +1,8 @@
 <mat-toolbar color="primary">
   <span>My Application</span>
 </mat-toolbar>
-<section class="moviesdata">
-<div *ngFor="let datas of data">
-
-   <img src="https://image.tmdb.org/t/p/w92/{{datas.poster_path}}">
-   
-</div>
-</section>
+<nav class="nav-link">
+  <a routerLink="movies">Movies</a>
+  <a routerLink="theaters">Theaters</a>
+</nav>
+<router-outlet></router-outlet>

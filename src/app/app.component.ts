@@ -14,13 +14,7 @@ export class AppComponent implements OnInit{
 
   
   ngOnInit(): void {
-   this.api.get().subscribe((res:any)=>{
-          this.data=res.results;
-           
-           
-   },(err:any)=>{
-    console.log(err)
-   }) 
+   
     
   }
 }
